@@ -1,9 +1,9 @@
 rpc2
 ====
 
-[![GoDoc](https://godoc.org/github.com/nubuki-all/rpc2?status.png)](https://godoc.org/github.com/nubuki-all/rpc2)
+[![GoDoc](https://godoc.org/github.com/pah-0/rpc2?status.png)](https://godoc.org/github.com/pah-0/rpc2)
 
-nubuki-all/rpc2 is a fork of cenkalti/rpc2 which is a fork of net/rpc package in the standard library.
+pah-0/rpc2 is a fork of cenkalti/rpc2 which is a fork of net/rpc package in the standard library.
 The main goal is to add bi-directional support to calls.
 That means server can call the methods of client.
 This is not possible with net/rpc package.
@@ -14,7 +14,7 @@ The difference of this fork from the original is the support of custom error int
 Install
 --------
 
-    go get github.com/nubuki-all/rpc2
+    go get github.com/pah-0/rpc2
 
 Example server
 ---------------
@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/nubuki-all/rpc2"
+	"github.com/pah-0/rpc2"
 )
 
 type Args struct{ A, B int }
@@ -60,7 +60,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/nubuki-all/rpc2"
+	"github.com/pah-0/rpc2"
 )
 
 type Args struct{ A, B int }

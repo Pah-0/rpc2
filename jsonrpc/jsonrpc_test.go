@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nubuki-all/rpc2"
+	"github.com/pah-0/rpc2"
 )
 
 const (

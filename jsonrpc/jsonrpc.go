@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/nubuki-all/rpc2"
+	"github.com/pah-0/rpc2"
 )
 
 type jsonCodec struct {

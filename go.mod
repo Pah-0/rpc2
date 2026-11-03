@@ -1,4 +1,4 @@
-module github.com/nubuki-all/rpc2
+module github.com/pah-0/rpc2
 
 go 1.20
 
